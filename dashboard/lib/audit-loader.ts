@@ -6,7 +6,19 @@ import { parseAuditMarkdown, parseAuditList } from './parser/markdownParser';
 import type { ParsedAudit, AuditListItem } from './parser/types';
 
 // Path to output directory (relative to dashboard root)
-const OUTPUT_DIR = join(process.cwd(), '..', 'output');
+// Try dashboard/output first (for Vercel deployments), then fall back to parent output directory
+const OUTPUT_DIR = (() => {
+  const dashboardOutput = join(process.cwd(), 'output');
+  const parentOutput = join(process.cwd(), '..', 'output');
+  try {
+    // Check if dashboard/output exists and has files
+    const files = readdirSync(dashboardOutput);
+    if (files.length > 0) return dashboardOutput;
+  } catch {
+    // Fall back to parent output directory
+  }
+  return parentOutput;
+})();
 
 /**
  * Get all audit report markdown files from output directory

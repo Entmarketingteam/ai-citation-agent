@@ -87,7 +87,7 @@ export default function CitationQualityBars({ data }: CitationQualityBarsProps) 
         backgroundColor: 'rgba(26, 26, 26, 0.95)',
         titleFont: {
           size: 12,
-          weight: '600' as const,
+          weight: 'bold' as const,
         },
         bodyFont: {
           size: 11,

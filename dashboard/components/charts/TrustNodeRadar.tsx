@@ -61,7 +61,7 @@ export default function TrustNodeRadar({ data }: TrustNodeRadarProps) {
           font: {
             size: 11,
             family: 'var(--font-body)',
-            weight: '500' as const,
+            weight: 'normal' as const,
           },
           color: '#4a4a4a',
         },
@@ -88,7 +88,7 @@ export default function TrustNodeRadar({ data }: TrustNodeRadarProps) {
         backgroundColor: 'rgba(26, 26, 26, 0.95)',
         titleFont: {
           size: 12,
-          weight: '600' as const,
+          weight: 'bold' as const,
         },
         bodyFont: {
           size: 11,

@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "brand": "Voyageur Group",
-    "category": "Retail and ecommerce media agency",
-    "date": "December 8, 2025",
-    "transformedAt": "2025-12-08T22:47:53.338Z"
+    "brand": "Nicki Entenmann",
+    "category": "Content Creator / Wellness Coach",
+    "date": "January 12, 2025",
+    "transformedAt": "2026-01-12T06:46:15.067Z"
   },
   "summary": {
-    "overallScore": 3.8,
+    "overallScore": 4.7,
     "trustNodeCoverage": 6,
     "trustNodeTotal": 29,
     "trustNodePercentage": 21,
-    "citationQuality": 6.5,
-    "aiCitationRate": 33
+    "citationQuality": 6.2,
+    "aiCitationRate": 0
   },
   "trustNodes": {
     "categories": [
@@ -19,37 +19,43 @@
         "name": "Knowledge Graphs",
         "coverage": 0,
         "total": 3,
-        "status": "Critical"
+        "status": "✗ Missing"
       },
       {
         "name": "Review Platforms",
         "coverage": 0,
         "total": 5,
-        "status": "Critical"
+        "status": "✗ Not Applicable"
       },
       {
         "name": "Directories",
-        "coverage": 1,
+        "coverage": 0,
         "total": 4,
-        "status": "Weak"
+        "status": "✗ Not Applicable"
       },
       {
         "name": "Company Profiles",
         "coverage": 1,
         "total": 2,
-        "status": "Partial"
+        "status": "⚠️ Partial"
       },
       {
         "name": "News & PR",
-        "coverage": 3,
+        "coverage": 2,
         "total": 10,
-        "status": "Weak"
+        "status": "⚠️ Limited"
       },
       {
         "name": "Seed Sites",
-        "coverage": 1,
+        "coverage": 0,
         "total": 5,
-        "status": "Weak"
+        "status": "✗ Missing"
+      },
+      {
+        "name": "Creator Platforms",
+        "coverage": 3,
+        "total": 3,
+        "status": "✓ Strong"
       }
     ],
     "overall": {
@@ -59,118 +65,47 @@
     }
   },
   "citationQuality": {
-    "overall": 6.5,
+    "overall": 6.2,
     "dimensions": {
-      "authority": 6.5,
-      "dataStructure": 6.7,
-      "brandAlignment": 7.3,
-      "freshness": 6.8,
-      "crossLinks": 5.3
+      "authority": 7,
+      "dataStructure": 5.5,
+      "brandAlignment": 8,
+      "freshness": 6,
+      "crossLinks": 4.5
     }
   },
   "llmRankings": [
     {
+      "platform": "Web Search (Simulated)",
+      "cited": "✓",
+      "position": "N/A (brand-specific)",
+      "citations": "4+"
+    },
+    {
       "platform": "Perplexity",
-      "cited": true,
-      "position": null,
-      "positionDisplay": "Brand query only",
-      "citations": 4
+      "cited": "⚠️ Partial",
+      "position": "Not tested",
+      "citations": "N/A"
     },
     {
       "platform": "ChatGPT",
-      "cited": false,
-      "position": null,
-      "positionDisplay": "Not mentioned",
-      "citations": 36
+      "cited": "⚠️ Partial",
+      "position": "Not tested",
+      "citations": "N/A"
     },
     {
       "platform": "Gemini",
-      "cited": false,
-      "position": null,
-      "positionDisplay": "Not mentioned",
-      "citations": 8
-    }
-  ],
-  "competitors": [
-    {
-      "name": "Tinuiti",
-      "perplexity": "Mentioned",
-      "chatgpt": "-",
-      "gemini": "#1"
-    },
-    {
-      "name": "Advantage Solutions",
-      "perplexity": "-",
-      "chatgpt": "#1",
-      "gemini": "-"
-    },
-    {
-      "name": "Power Digital",
-      "perplexity": "#1",
-      "chatgpt": "#2",
-      "gemini": "-"
-    },
-    {
-      "name": "Cool Nerds Marketing",
-      "perplexity": "-",
-      "chatgpt": "-",
-      "gemini": "#2"
+      "cited": "⚠️ Partial",
+      "position": "Not tested",
+      "citations": "N/A"
     }
   ],
   "priorities": [
     {
       "level": "Immediate",
-      "title": "Create G2 Agency Profile",
-      "description": "G2 is heavily cited by LLMs for 'best agency' queries",
-      "action": "Create G2 profile at g2.com/products/new, add company info, request reviews from 5-10 existing clients",
-      "impact": "High",
-      "effort": "Low",
-      "timeline": "30 days"
-    },
-    {
-      "level": "Immediate",
-      "title": "Issue Press Release via GlobeNewswire",
-      "description": "ChatGPT prioritizes wire service press releases",
-      "action": "Issue press release about Inc. 5000 2025 recognition with specific metrics (428% growth, revenue, client count)",
-      "impact": "High",
-      "effort": "Low",
-      "timeline": "30 days"
-    },
-    {
-      "level": "Immediate",
-      "title": "Submit to Agency Ranking Lists",
-      "description": "Both ChatGPT and Gemini heavily cite these sources",
-      "action": "Submit to DesignRush, Clutch, Amra and Elma agency directories",
-      "impact": "High",
-      "effort": "Medium",
-      "timeline": "30 days"
-    },
-    {
-      "level": "Strategic",
-      "title": "Build Wikipedia Article",
-      "description": "Foundational for knowledge graph presence across all LLMs",
-      "action": "Compile notability evidence from Inc. 5000 recognition and submit article",
-      "impact": "High",
-      "effort": "High",
-      "timeline": "90 days"
-    },
-    {
-      "level": "Strategic",
-      "title": "Pursue Industry Publication Coverage",
-      "description": "Target AdExchanger, Marketing Brew, Retail Dive",
-      "action": "Pitch thought leadership on retail media trends",
-      "impact": "High",
-      "effort": "Medium",
-      "timeline": "90 days"
+      "title": "Enhance Website Structured Data",
+      "action": "",
+      "timeline": ""
     }
-  ],
-  "gaps": {
-    "critical": [
-      "No Wikipedia article - blocks knowledge graph citations",
-      "No G2 profile - major gap for 'best agency' queries",
-      "No industry publication coverage (AdExchanger, Marketing Brew)",
-      "No press releases on wire services"
-    ],
-    "impact": "Without Wikipedia and G2, Voyageur Group cannot be cited as authoritative source by LLMs for category queries"
-  }
+  ]
 }
